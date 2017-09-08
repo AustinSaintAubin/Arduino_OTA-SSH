@@ -1,0 +1,13 @@
+### Add to the bottom of ( [Arduino IDA]\...\hardware\arduino\avr\platform.txt )
+
+
+# Arduino: Over the Air (OTA) Update though SSH on Raspberry Pi
+# https://github.com/AustinSaintAubin/Arduino_OTA-SSH
+# Custom platform: Arduino\hardware\arduino\avr\platform.txt
+# ------------------------------
+tools.ota-ssh.program.params.verbose=-v
+tools.ota-ssh.program.params.quiet=-q -q
+# tools.ota-ssh.program.verify is needed for backwards compatibility with IDE 1.6.8 or older, IDE 1.6.9 or newer overrides this value
+tools.ota-ssh.program.verify=
+tools.ota-ssh.program.params.noverify=-V
+tools.ota-ssh.program.pattern="{sketchbook.path}/arduino_ato-ssh.sh" "{build.path}/{build.project_name}" "{program.verbose}" "{program.verify}" "-p {build.mcu}" "-c {protocol}" "{program.extra_params}"
