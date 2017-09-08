@@ -1,5 +1,9 @@
 # Arduino_OTA-SSH
-Over the Air (OTA) Update though SSH on Raspberry Pi
+Over the Air (OTA) Update though SSH on Raspberry Pi.
+
+Used to flash new firmware from the Arduino IDE though a Raspberry Pi to an Arduino.
+In my case I have an Arduino connected over USB OTG to a Raspberry Pi Zero W, connected over WiFi
+
 ![Screenshoot](https://github.com/AustinSaintAubin/Arduino_OTA-SSH/blob/master/Screen%20Shot.png)
 
 ## Setup: Raspberry Pi (Client)
