@@ -1,6 +1,6 @@
 # Arduino_OTA-SSH
 Over the Air (OTA) Update though SSH on Raspberry Pi
-
+![Screenshoot](https://github.com/AustinSaintAubin/Arduino_OTA-SSH/blob/master/Screen%20Shot.png)
 
 ## Setup: Raspberry Pi (Client)
  - Install required dependacies ``` sudo apt-get install -y avrdude gcc-avr avr-libc ```
