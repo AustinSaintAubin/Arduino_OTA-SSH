@@ -17,7 +17,7 @@ In my case I have an Arduino connected over USB OTG to a Raspberry Pi Zero W, co
  - Run: ``` sh setup_ssh-passwordless-login.sh ``` to configure Password-less SSH Login.
  - Move to: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/platform.txt 
  - Move to: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/programmers.txt
- - Move to: /Users/.../Documents/Arduino/arduino_ato-ssh.sh
+ - Move to: /Users/.../Documents/Arduino/arduino_ato-ssh.sh (or your Arduino "My Sketch" folder)
  	- Run: ``` chmod +x /Users/.../Documents/Arduino/arduino_ssh_upload.sh ```
 
 ### Linux
