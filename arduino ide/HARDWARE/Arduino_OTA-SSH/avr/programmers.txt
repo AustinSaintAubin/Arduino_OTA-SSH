@@ -1,6 +1,3 @@
-### Add to the bottom of ( [Arduino IDA]\...\hardware\arduino\avr\platform.txt )
-
-
 # Arduino: Over the Air (OTA) Update though SSH on Raspberry Pi
 # https://github.com/AustinSaintAubin/Arduino_OTA-SSH
 # Custom programming interface: Arduino\hardware\arduino\avr\programmers.txt
